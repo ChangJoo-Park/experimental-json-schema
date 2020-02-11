@@ -2,6 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/list">리스트</router-link> |
+      <router-link to="/wizard">전체 설문 목록</router-link> |
+      <router-link to="/new">새 설문 만들기</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
@@ -13,7 +16,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
