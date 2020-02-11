@@ -14,7 +14,7 @@ const getObjectId = () => require('mongoose').Types.ObjectId()
 const makeTitle = () => faker.lorem.sentence()
 const makeDescription = () => faker.random.boolean() ? faker.lorem.sentence() : ''
 const makeQuota = () => []
-const makeMedium = () => ({ type: 'MEDIUM', subtype: 'IMAGE', uri: `https://via.placeholder.com/200.png/${getColor()}/${getColor()}` })
+const makeMedium = () => ({ type: 'MEDIA', subtype: 'IMAGE', uri: `https://via.placeholder.com/200.png/${getColor()}/${getColor()}` })
 
 const makeGuidePage = (next_page) => ({
   _id: getObjectId(),

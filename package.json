@@ -11,8 +11,10 @@
     "ant-design-vue": "^1.4.10",
     "core-js": "^3.6.4",
     "faker": "^4.1.0",
+    "shortid": "^2.2.15",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue-router": "^3.1.5",
+    "vuedraggable": "^2.23.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",

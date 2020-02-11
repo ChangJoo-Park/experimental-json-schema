@@ -25,7 +25,7 @@
           <div
             style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem;"
           >
-            <Element v-for="element in page.elements" :key="element._id" :element="element" />
+            <ElementComponent v-for="element in page.elements" :key="element._id" :element="element" />
           </div>
           <div style="text-align: center;">
             <strong>{{ index + 1 }} / {{ item.pages.length }}</strong>
@@ -40,11 +40,11 @@
 <script>
 const list = require('../../survey.json')
 
-import Element from '@/components/Element.js'
+import ElementComponent from '@/components/Element.js'
 
 export default {
   components: {
-    Element
+    ElementComponent
   },
   data () {
     return {

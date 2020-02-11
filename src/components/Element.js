@@ -63,7 +63,7 @@ const renderOptionTemplate = (element) => {
 
 const renderTemplate = (element) => {
   switch (element.type) {
-    case 'MEDIUM':
+    case 'MEDIA':
       return renderMediumTemplate(element)
     case 'OPTION':
       return renderOptionTemplate(element)
